@@ -1,0 +1,32 @@
+name: SeasonCraftCore
+version: 1.0.0
+main: com.seasoncraft.survivalcore.SeasonCraftCore
+api-version: '1.21'
+author: SeasonCraft Team
+description: Homes, RTP menus, spawn, borders and server utilities.
+commands:
+  sethome:
+    description: Set a home.
+  delhome:
+    description: Delete a home.
+  homes:
+    description: Open the home menu.
+  rtp:
+    description: Open the random teleport menu.
+  spawn:
+    description: Teleport to spawn.
+  tpa:
+    description: Send a teleport request.
+  tpahere:
+    description: Request a player teleport to you.
+  tpaccept:
+    description: Accept a teleport request.
+  tpdeny:
+    description: Deny a teleport request.
+permissions:
+  customtools.chunkloader:
+    default: true
+  customtools.villagertransport:
+    default: true
+  customtools.oreminer:
+    default: true

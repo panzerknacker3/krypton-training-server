@@ -1,7 +1,13 @@
 # Krypton Training Server
 
-Paper plugin and setup materials for a private Minecraft training server.
+Public Paper server package with the SeasonCraftCore plugin and safe setup examples.
 
-This public package intentionally excludes worlds, player data, logs, backups, host credentials, FTP details, private IP addresses, and third-party plugin binaries.
+## Repository layout
 
-See [TUTORIAL.md](TUTORIAL.md) for setup and commands.
+- [docs/STRUCTURE.md](docs/STRUCTURE.md) — project map and privacy scope
+- [TUTORIAL.md](TUTORIAL.md) — English setup and usage guide
+- [plugin/src/main/resources/plugin.yml](plugin/src/main/resources/plugin.yml) — plugin metadata and commands
+- [server/server.properties.example](server/server.properties.example) — safe server settings template
+- [server/start-server.example.bat](server/start-server.example.bat) — Windows start example
+
+The repository is organized by purpose instead of being a collection of ZIP files. Private worlds, player data, logs, backups, credentials, FTP details, private IPs, and third-party server files are intentionally excluded.

@@ -12,9 +12,9 @@
 
 Example start command:
 
-`@text
+```text
 java -Xms2G -Xmx4G -jar paper.jar --nogui
-`@
+```
 
 ## 2. Repository layout
 
@@ -29,9 +29,9 @@ The public repository does not contain private worlds, player data, host credent
 
 SeasonCraftCore does not bundle WorldEdit or schematic files. For a staging server, install a compatible WorldEdit or FAWE build separately, then create this directory if it does not exist:
 
-`@text
+```text
 plugins/WorldEdit/schematics/
-`@
+```
 
 Copy only base schematics that you are licensed or permitted to use into that directory. Keep schematic filenames descriptive, for example:
 
